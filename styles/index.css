@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+}
+
+li {
+  list-style: none;
+}
+
+.main-page {
+  overflow-x: hidden;
+}/*# sourceMappingURL=index.css.map */

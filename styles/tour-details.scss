@@ -1,0 +1,87 @@
+@import './params';
+
+.boat-tour {
+    background-color: $color2;
+    width: 100%;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 3rem;
+        color: $color1;
+
+        .title {
+            h2 {
+                text-align: center;
+                font-family: $font3;
+                font-weight: 700;
+                font-size: 3rem;
+            }
+        }
+
+
+        .grid {
+            width: 100%;
+            padding: 2rem;
+
+            .items-list {
+                gap: 2rem;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+
+                .items {
+                    width: 100%;
+                    display: flex;
+                    gap: 1rem 2rem;
+                    padding: 1.5rem;
+                    max-width: 300px;
+                    text-align: center;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .picture {
+                        width: 150px;
+                        height: 150px;
+                        position: relative;
+                        border-radius: 50%;
+                        background-color: #FFFFFF;
+
+                        .img {
+                            width: 150px;
+                            position: absolute;
+                            top: 55%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+
+                        .imgs-same-circle-left {
+                            left: 32%;
+                            top: 60%;
+                        }
+
+                        .imgs-same-circle-right {
+                            left: 68%;
+                            top: 47%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .end-title {
+            text-align: center;
+            padding-bottom: 2rem;
+
+            p {
+                padding-top: 2rem;
+                font-size: small; 
+            }
+        }
+    }
+}

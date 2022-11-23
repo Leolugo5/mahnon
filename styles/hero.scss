@@ -1,0 +1,75 @@
+@import './params';
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: $color2;
+
+    .hero-bg {
+        position: absolute;
+        top: -60px;
+        padding-top: 90px;
+        width: 100%;
+        height: 100%;
+        background-image: url('../media/bg/Screenshot-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+
+        .hero-wrapper {
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            z-index: 999;
+
+            .title-wrapper-text {
+                font-size: 2rem;
+                color: teal;
+                .titles {
+                    font-family: $font3;
+                }
+            }
+
+            .subtitle-text {
+                .subtitle {
+                    font-family: $font2;
+                }
+            }
+        }
+
+
+        .turtles {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: min-content;
+
+            .t-item {
+                transform: translate(-0%, 20%) scale(1.3);
+            }
+            .left {
+                position: absolute;
+                left: -30%;
+            }
+            .right {
+                right: -30%;
+                position: absolute;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .turtles {
+        .left {
+            left: -50%;
+        }
+        .right {
+            right: -50%;
+        }
+    }
+}
