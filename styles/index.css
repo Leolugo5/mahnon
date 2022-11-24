@@ -9,6 +9,7 @@ li {
   list-style: none;
 }
 
-.main-page {
+html, body {
   overflow-x: hidden;
+  background-color: #F1E5D2;
 }/*# sourceMappingURL=index.css.map */

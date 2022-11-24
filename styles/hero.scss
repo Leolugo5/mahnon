@@ -3,19 +3,19 @@
 .hero {
     width: 100%;
     height: 100vh;
+    top: -60px;
+    padding-top: 90px;
+    position: absolute;
     position: relative;
     background-color: $color2;
+    background-image: url('../media/bg/Screenshot-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
 
     .hero-bg {
-        position: absolute;
-        top: -60px;
-        padding-top: 90px;
         width: 100%;
         height: 100%;
-        background-image: url('../media/bg/Screenshot-1.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        object-fit: cover;
 
         .hero-wrapper {
             left: 50%;
@@ -40,7 +40,6 @@
             }
         }
 
-
         .turtles {
             position: relative;
             display: flex;
@@ -49,7 +48,7 @@
             height: min-content;
 
             .t-item {
-                transform: translate(-0%, 20%) scale(1.3);
+                transform: translate(-0%, 20%);
             }
             .left {
                 position: absolute;
@@ -63,13 +62,86 @@
     }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-height: 480px) {
+    .hero {
+        min-height: 500px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .hero-wrapper {
+    }
     .turtles {
         .left {
-            left: -50%;
+            left: -45% !important;
         }
         .right {
-            right: -50%;
+            right: -45% !important;
+        }
+    }
+}
+@media screen and (max-width: 1065px) {
+    .turtles {
+        .left {
+            left: -50% !important;
+        }
+        .right {
+            right: -50% !important;
+        }
+    }
+}
+@media screen and (max-width: 930px) {
+    .turtles {
+        .left {
+            left: -65% !important;
+        }
+        .right {
+            right: -65% !important;
+        }
+    }
+}
+@media screen and (max-width: 810px) {
+    .turtles {
+        .left {
+            left: -75% !important;
+        }
+        .right {
+            right: -75% !important;
+        }
+    }
+}
+@media screen and (max-width: 720px) {
+    .turtles {
+        .left {
+            max-width: 400px;
+            transform: translate(120%, 0%) !important;
+        }
+        .right {
+            max-width: 400px;
+            transform: translate(-120%, 220%) !important;
+        }
+    }
+}
+@media screen and (max-width: 550px) {
+    .turtles {
+        .right {
+            max-width: 400px;
+            transform: translate(-80%, 0%) !important;
+        }
+        .left {
+            max-width: 400px;
+            transform: translate(80%, 220%) !important;
+        }
+    }
+}
+@media screen and (max-width: 450px) {
+    .turtles {
+        .right {
+            max-width: 400px;
+            transform: translate(-25%, 0%) !important;
+        }
+        .left {
+            max-width: 400px;
+            transform: translate(25%, 220%) !important;
         }
     }
 }

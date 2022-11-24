@@ -1,6 +1,7 @@
 @import './params';
 
 
-.main-page {
+html, body {
     overflow-x: hidden;
+    background-color: $color2;
 }
