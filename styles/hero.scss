@@ -26,8 +26,8 @@
             z-index: 999;
 
             .title-wrapper-text {
-                font-size: 2rem;
-                color: teal;
+                font-size: 3.5rem;
+                color: $color1;
                 .titles {
                     font-family: $font3;
                 }
@@ -35,7 +35,8 @@
 
             .subtitle-text {
                 .subtitle {
-                    font-family: $font2;
+                    color: $color1;
+                    font-family: $font4;
                 }
             }
         }

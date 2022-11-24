@@ -20,6 +20,9 @@ li {
   gap: 3rem;
   color: #1A696C;
 }
+.boat-tour .wrapper .title {
+  padding: 0 2rem;
+}
 .boat-tour .wrapper .title h2 {
   text-align: center;
   font-family: "Dancing Script", cursive;

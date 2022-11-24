@@ -36,14 +36,15 @@ li {
   z-index: 999;
 }
 .hero .hero-bg .hero-wrapper .title-wrapper-text {
-  font-size: 2rem;
-  color: teal;
+  font-size: 3.5rem;
+  color: #1A696C;
 }
 .hero .hero-bg .hero-wrapper .title-wrapper-text .titles {
   font-family: "Dancing Script", cursive;
 }
 .hero .hero-bg .hero-wrapper .subtitle-text .subtitle {
-  font-family: "Comfortaa", cursive;
+  color: #1A696C;
+  font-family: "Pacifico", cursive;
 }
 .hero .hero-bg .turtles {
   position: relative;
