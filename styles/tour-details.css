@@ -92,7 +92,6 @@ li {
     grid-auto-rows: minmax(100px, auto);
   }
   .items-list .items {
-    background-color: tomato;
     margin: 0 auto;
   }
 }
@@ -101,7 +100,6 @@ li {
     grid-template-columns: repeat(1, 1fr);
   }
   .items-list .items {
-    background-color: teal;
     margin: 0 auto;
   }
 }/*# sourceMappingURL=tour-details.css.map */
